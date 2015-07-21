@@ -16,24 +16,24 @@ constraints. Anyway, that's my 2 cents.
 ## Finding your way around
 
 ### Prod
-src/elev/data.clj - The main assembly area
-src/elev/abstract.clj - Protocols (interfaces) for the library
-src/elev/data/query.clj - Stand alone functions that answer questions about one or more elevators.
-src/elev/data/impl.clj - Low level implementation details for data.clj
-src/elev/strategy.clj - Several switchable strategies for the simulator
-src/elev/core.clj - Entry point when running stand-alone
+* src/elev/data.clj - The main assembly area
+* src/elev/abstract.clj - Protocols (interfaces) for the library
+* src/elev/data/query.clj - Stand alone functions that answer questions about one or more elevators.
+* src/elev/data/impl.clj - Low level implementation details for data.clj
+* src/elev/strategy.clj - Several switchable strategies for the simulator
+* src/elev/core.clj - Entry point when running stand-alone
 
 ### Dev
-dev/user.clj - Development namespace for experimentation. Will be the default namespace for any REPL session
-test/* - No tests yet, too fluid, all REPL work so far.
+* dev/user.clj - Development namespace for experimentation. Will be the default namespace for any REPL session
+* test/* - No tests yet, too fluid, all REPL work so far.
 
 ## Future fun things to add
 
-Callbacks on pickup/deliver
-More strategies
-Cargo elevators
-Return elevators to ground floor when not in use
-Metrics
+* Callbacks on pickup/deliver
+* More strategies
+* Cargo elevators
+* Return elevators to ground floor when not in use
+* Metrics
 
 ## Usage
 
